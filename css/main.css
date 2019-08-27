@@ -1,0 +1,149 @@
+.navbar {
+  background-color: #383e4c;
+  padding: 0 0 5px; }
+
+.collapse .navbar-nav .nav-item {
+  padding: 10px; }
+  .collapse .navbar-nav .nav-item .nav-link {
+    padding: 10px 20px;
+    border: 1px solid #646d7c;
+    font-size: 20px;
+    color: #ffffff; }
+  .collapse .navbar-nav .nav-item .nav-link:hover {
+    background-color: #49505F; }
+  .collapse .navbar-nav .nav-item .nav-link.active {
+    background-color: #49505F; }
+
+header .header {
+  background-image: url("../img/bg-1.jpg");
+  height: 614px;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  align-items: center;
+  justify-content: center; }
+  header .header .header-text {
+    text-align: center;
+    color: #ffffff; }
+    header .header .header-text h1 {
+      font-size: 60px;
+      text-shadow: 2px 2px #333333; }
+    header .header .header-text p {
+      font-size: 25px;
+      text-shadow: 2px 2px #333333; }
+
+.row-feature-a {
+  flex-wrap: wrap;
+  margin: 60px 0; }
+  .row-feature-a .space-card .feature-card {
+    height: 100%;
+    border-radius: 0px;
+    padding: 0px; }
+    .row-feature-a .space-card .feature-card .card-img-top {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top-left-radius: calc(0px);
+      border-top-right-radius: calc(0px); }
+    .row-feature-a .space-card .feature-card .card-body {
+      background-color: #f2f2f2;
+      padding-bottom: 15px; }
+      .row-feature-a .space-card .feature-card .card-body .card-img-top {
+        border-radius: 0px; }
+      .row-feature-a .space-card .feature-card .card-body .bottom-body {
+        text-align: center; }
+        .row-feature-a .space-card .feature-card .card-body .bottom-body a.btn-primary {
+          padding: 8px 15px;
+          margin: 20px 0 10px; }
+
+.row-feature-b {
+  margin-bottom: 60px; }
+  .row-feature-b .space-card .feature-card {
+    height: 100%;
+    border-radius: 0px;
+    padding: 0px; }
+    .row-feature-b .space-card .feature-card .card-img-top {
+      border-top-left-radius: 0px;
+      border-top-right-radius: 0px;
+      border-top-left-radius: calc(0px);
+      border-top-right-radius: calc(0px); }
+    .row-feature-b .space-card .feature-card .card-body {
+      background-color: #f2f2f2;
+      padding-bottom: 15px; }
+      .row-feature-b .space-card .feature-card .card-body .bottom-body {
+        text-align: center; }
+        .row-feature-b .space-card .feature-card .card-body .bottom-body a.btn-primary {
+          padding: 8px 15px;
+          margin: 20px 0 10px; }
+
+.container-fluid {
+  background-image: url("../img/bg-2.jpg");
+  background-attachment: fixed;
+  background-size: cover; }
+  .container-fluid .row-services {
+    height: 313px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25%; }
+    .container-fluid .row-services .inner-services {
+      color: #ffffff;
+      text-align: center; }
+      .container-fluid .row-services .inner-services .h-services {
+        font-size: 40px;
+        padding-bottom: 15px; }
+      .container-fluid .row-services .inner-services .p-services {
+        font-size: 15px; }
+
+#section-e .card-body {
+  background-color: #f2f2f2; }
+
+.block-contact {
+  min-height: 575px;
+  background-image: url("../img/bg-3.jpg");
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  margin-top: 60px; }
+  .block-contact .container {
+    padding: 5% 10%; }
+    .block-contact .container .row-contact .row-contact-a .col-contact-a .contact-content {
+      text-align: center; }
+      .block-contact .container .row-contact .row-contact-a .col-contact-a .contact-content .h-contact {
+        font-size: 36px;
+        color: #ffffff;
+        text-shadow: 2px 2px #333333; }
+      .block-contact .container .row-contact .row-contact-a .col-contact-a .contact-content .row.p {
+        margin: 30px 0;
+        background-color: rgba(242, 242, 242, 0.4);
+        border-radius: 5px;
+        padding: 10px; }
+    .block-contact .container .row-contact .row-contact-b .col-sm-12 .contact-form .form-left {
+      padding: 0 15px 0 0; }
+      .block-contact .container .row-contact .row-contact-b .col-sm-12 .contact-form .form-left input.form-control {
+        margin-bottom: 15px;
+        background-color: rgba(242, 242, 242, 0.4);
+        border-radius: 5px; }
+    .block-contact .container .row-contact .row-contact-b .col-sm-12 .contact-form .form-right {
+      padding: 0 0 0 15px; }
+      .block-contact .container .row-contact .row-contact-b .col-sm-12 .contact-form .form-right .form-control {
+        height: 144px;
+        background-color: rgba(242, 242, 242, 0.4); }
+      .block-contact .container .row-contact .row-contact-b .col-sm-12 .contact-form .form-right .btn {
+        margin: 15px 0;
+        padding: 10px 20px;
+        font-size: 20px;
+        background-color: #383E4C; }
+
+.footer .row-footer-a {
+  height: 169px;
+  text-align: center;
+  display: block;
+  padding: 0 20%; }
+  .footer .row-footer-a .h-footer {
+    margin: 30px 0 20px;
+    font-size: 36px;
+    font-style: italic; }
+  .footer .row-footer-a .p-footer {
+    font-style: italic; }
+.footer .row-footer-b {
+  height: 59px;
+  text-align: center; }
+
+/*# sourceMappingURL=main.css.map */
